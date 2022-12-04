@@ -2,5 +2,5 @@ streamlit==1.5.0
 pandas
 plost
 click<=8.0.4
-pip install protobuf==3.20.*
+protobuf==3.20.3
 streamlit-autorefresh
