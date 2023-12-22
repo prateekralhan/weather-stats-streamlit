@@ -60,7 +60,7 @@ def get_visibility():
 
 def get_aqi():
     aqi_api_key = st.secrets["AQI_API_Key"]
-    aqi_base_url = "https://api.waqi.info/feed/here/?token="
+    aqi_base_url = "https://api.waqi.info/feed/bangalore/?token="
     response = requests.get(aqi_base_url + aqi_api_key)
     aqi_json_output = response.json()
 
