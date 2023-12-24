@@ -4,3 +4,4 @@ plost
 click<=8.0.4
 protobuf==3.20.3
 streamlit-autorefresh
+altair<5
